@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoub Soufi - Artista & studente </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">AYOUB SOUFI</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="portfolio.html" class="nav-link">disegni</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Video Section -->
+    <section class="hero-video">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="video/log101.mov" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Ayoub Soufi</h1>
+            <p class="hero-subtitle">Artista & studente</p>
+            <a href="portfolio.html" class="cta-button">Scopri il Mio Lavoro</a>
+        </div>
+    </section>
+
+    <!-- Featured Grid -->
+    <section class="featured-grid">
+        <div class="container">
+            <div class="grid-columns">
+                <!-- Column 1 -->
+                <div class="grid-column">
+                    <div class="grid-item large" onclick="openProject('project1')">
+                        <img src="immagini/log6.jpeg" alt="ayoub soufi">
+                        <div class="item-info">
+                            <h3>disegno</h3>
+                            <p>penna blu</p>
+                        </div>
+                    </div>
+                    <div class="grid-item small" onclick="openProject('project2')">
+                        <img src="immagini/log3.jpg" alt="Schizzi">
+                        <div class="item-info">
+                            <h3>disegno </h3>
+                            <p>colore a matita</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Column 2 -->
+                <div class="grid-column">
+                    <div class="grid-item small" onclick="openProject('project3')">
+                        <img src="immagini/log16.JPG" alt="Architettura">
+                        <div class="item-info">
+                            <h3>occhio</h3>
+                        </div>
+                    </div>
+                    <div class="grid-item large" onclick="openProject('project4')">
+                        <img src="immagini/log13.jpg" alt="Astratto">
+                        <div class="item-info">
+                            <h3>disegno</h3>
+                            <p>penna sul carta</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Column 3 -->
+                <div class="grid-column">
+                    <div class="grid-item medium" onclick="openProject('project5')">
+                        <img src="immagini/log17.JPEG" alt="Ritratto">
+                        <div class="item-info">
+                            <h3>disegno</h3>
+                            <p>penna su carta</p>
+                        </div>
+                    </div>
+                    <div class="grid-item medium" onclick="openProject('project6')">
+                        <img src="immagini/log18.JPEG" alt="Acquerello">
+                        <div class="item-info">
+                            <h3>disegno</h3>
+                            <p>penna blu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>studente</h2>
+                    <p>Ayoub Soufi è un ragazzo che frequenta la classe 5ª I di Informatica presso l'ITIS Pacinotti. Ha 18 anni e ha realizzato questo sito come progetto scolastico, grazie all’idea della sua professoressa di Informatica. L’obiettivo è quello di condividere i suoi disegni e le sue opere artistiche, unendo la passione per l’arte con le competenze informatiche acquisite durante il percorso di studi..</p>
+                    <a href="about.html" class="text-link">Scopri di più <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="about-image">
+                    <img src="immagini/log7.JPG" alt="Ayoub Soufi">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Ayoub Soufi</h3>
+                    <p>Artista & Illustratore</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/as__ayoub__20/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="tel:+393759744734"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:ayoubsoufi148@email.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ayoub Soufi. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

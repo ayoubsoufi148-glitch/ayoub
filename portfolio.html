@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ayoub Soufi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">AYOUB SOUFI</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="portfolio.html" class="nav-link active">Disegni</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="portfolio-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Portfolio</h1>
+                <p>Una selezione dei miei lavori più recenti</p>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="masonry-grid">
+                <div class="masonry-item" onclick="openProject('project1')">
+                    <img src="immagini/log2.jpg.jpg" alt="Digital Art">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>professoressa</h3>
+                            <p> matita HB · 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="masonry-item" onclick="openProject('project2')">
+                    <img src="immagini/log10.jpeg" alt="Sketch">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>il mio preferito disegno fatto a caso </h3>
+                            <p>penna su carta · 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="masonry-item" onclick="openProject('project3')">
+                    <img src="immagini/log14.jpg" alt="Abstract">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>il mio amico con la sua fidanzata</h3>
+                            <p>colore a matita· 2025</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="masonry-item" onclick="openProject('project4')">
+                    <img src="immagini/log8.jpg" alt="Portrait">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>amico di classe con la sua fidanzata </h3>
+                            <p>matita HB · 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="masonry-item" onclick="openProject('project5')">
+                    <img src="immagini/log21.JPG" alt="Watercolor">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>disegno </h3>
+                            <p>penna blu · 2025</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="masonry-item" onclick="openProject('project6')">
+                    <img src="immagini/log19.JPEG" alt="Architecture">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>disegno con la penna </h3>
+                            <p> penna blu · 2025</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="masonry-item" onclick="openProject('project7')">
+                    <img src="immagini/log12.JPG" alt="Nature">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>professoressa di itaiano</h3>
+                            <p>colore a matita · 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="masonry-item" onclick="openProject('project8')">
+                    <img src="immagini/log20.jpg" alt="Character">
+                    <div class="item-overlay">
+                        <div class="item-content">
+                            <h3>compagno di classe</h3>
+                            <p>Illustrazione digitale · 2023</p>
+                        </div>
+                    </div>
+                </div>
+               
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Ayoub Soufi</h3>
+                    <p>Artista & Illustratore</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/as__ayoub__20/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="tel:+393331234567"><i class="fas fa-phone"></i></a>
+                    <a href="mailto:ayoub.soufi@email.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ayoub Soufi. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
